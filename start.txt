@@ -1,0 +1,1 @@
+sudo NODE_ENV=production forever -m 5 server.js

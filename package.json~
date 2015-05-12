@@ -1,7 +1,7 @@
 {
-  "name": "LifeLine",
-  "description": "LifeLine - Life tracker",
-  "version": "0.0.1",
+  "name": "Website In A Weekend",
+  "description": "Website In A Weekend",
+  "version": "0.5",
   "private": true,
   "dependencies": {
     "body-parser": "~1.4.3",

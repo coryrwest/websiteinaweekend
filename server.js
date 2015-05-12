@@ -82,7 +82,7 @@ if (!module.parent) {
 
     app.listen(port, ipaddress, function() {
         console.log('%s: Node server started on %s:%d ...',
-            Date(Date.now() ), self.ipaddress, self.port);
+            Date(Date.now() ), ipaddress, port);
     });
     console.log('Express started on port ' + port);
 }

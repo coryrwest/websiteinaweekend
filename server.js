@@ -69,7 +69,7 @@ module.exports = app;
 
 /* istanbul ignore next */
 if (!module.parent) {
-    var port = process.env.PORT || 8080;
+    var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
     app.listen(port);
     console.log('Express started on port ' + port);
 }

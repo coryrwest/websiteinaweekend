@@ -1,23 +1,50 @@
 <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>
-                    Setting up hosting and purchasing a domain name
-                </h1>
-                <p>
-                    The domain name is one of the most important aspects of your website. People hate typing in long domain names, so
-                    having a short name is important. Also, people are familiar with the .com domain ending so you should try to stick
-                    to that whenever possible. There are new domain endings being added all the time that cary some novelty or uniqueness,
-                    such as .website, .attorney, or .club.
-                </p>
-                <p>
-                    When choosing a domain name using your business or personal name is usually the easiest route. Unfortunately, many common
-                    names are already taken. This just means we have to get creative. Using the box below you can search for available domain
-                    names instantly and even receive some suggestions.
-                </p>
-                <p>DOMAIN SEARCH. Mashape?</p>
-            </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h1>
+                Setting up hosting and purchasing a domain name
+            </h1>
+            <p>
+                <strong>If you are redesigning your website then you already have hosting, you can continue to the next step if you know you
+                    hosting information, otherwise you will probably have to buy new hosting. It will be more difficult for you to
+                    find the necessary information to install your new website if you are using existing hosting.</strong>
+            </p>
+            <p>
+                Choosing the right web hosting can be daunting with an industry as diverse as this. Luckily for you we have chosen
+                for you. HostGator is one of our partners and offers very affordable hosting that is environmentally friendly and
+                high-quality. We use their hosting exclusively in our company and have for years. Their support is quick to
+                respond and top-notch.
+            </p>
+            <p>
+                We have taken the liberty of selecting the most cost-effective solution for you.
+            </p>
+            <p>
+                With our coupon code (websiteinaweekend) you will receive a 25% discount on the hosting package. It should already be
+                applied when you click the button below. Make sure to input your domain name. If you chose a .com, .co, .biz, .info, .net, .org, or .me you can
+                register the domain with HostGator. If you chose something else you will have to register the domain with NameCheap,
+                <a href="#/namecheap">click here</a> to do that.
+            </p>
+            <p>
+                The total cost of web hosting for two years, with our coupon code, should come out to around $100 with no extra options selected.
+            </p>
+            <p>
+                <strong>IF YOU READ NOTHING ELSE ON THIS PAGE, READ THIS.</strong> There are two options that are automatically
+                selected when you add hosting to your cart. <em>Secure and Accelerate Your Site</em> is unnecessary. <em>Site Backup</em>
+                is optional and can give you some piece of mind should something happen to your site. HostGator backs up your site
+                automatically for their own purposes, but a restore is $15 and take about a day. <em>Site Backup</em> is faster
+                and restores are free.
+            </p>
+            <a class="btn btn-info" ng-click="buyHosting()">Buy my hosting.</a>
         </div>
+    </div>
+    <div class="row pad-tb-1">
+        <div class="col-md-12">
+            <p class="well" ng-show="model.hostingPurchased">
+                Once you have purchased your hosting you will receive an email with all the details on how to install and administer
+                your website. You will need this email before you continue to the next step.
+            </p>
+        </div>
+    </div>
 </div>
 <footer>
     <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">

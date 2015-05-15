@@ -11,19 +11,30 @@
     <meta name="author" content="">
     <meta name="googlebot" content="index,follow">
     <title>Website In A Weekend</title>
-      <link href="css/application.css" rel="stylesheet">
-      <link href="css/site.css" rel="stylesheet">
+      <link href="/css/application.css" rel="stylesheet">
+      <link href="/css/site.css" rel="stylesheet">
     <!-- Favicons -->
-    <link href="images/favicon/favicon.png" rel="shortcut icon">
-    <link href="images/favicon/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
-    <link href="images/favicon/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
-    <link href="images/favicon/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="/images/favicon/favicon.png" rel="shortcut icon">
+    <link href="/images/favicon/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
+    <link href="/images/favicon/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="/images/favicon/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="114x114">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <script src="js/modernizr-2.7.1.min.js"></script>
+    <script src="/js/modernizr-2.7.1.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-63023328-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <body class="index" id="to-top">
     <!-- Side nav -->
@@ -40,7 +51,7 @@
     <header class="jumbotron" role="banner">
       <div class="container">
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-md-12">
             <!-- Logo -->
             <!--<figure class="text-center">-->
               <!--<a href="./index.html">-->
@@ -54,25 +65,42 @@
               <p>Build a beautiful website quickly for your business, project, or yourself.</p>
               <p>No coding or special knowledge required. We will walk you through every step.</p>
             <!-- Button -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
             <p class="btn-app-store">
-              <form class="subscribe-form form-inline" action="./index.html" role="form">
-                  <!-- Input -->
+              <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+              <form action="//websiteinaweekend.us2.list-manage.com/subscribe/post?u=e65094916647d6bc36550471c&amp;id=308ef2cb47"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                    class="subscribe-form form-inline" novalidate role="form">
+                <div id="mc_embed_signup_scroll">
+
                   <div class="form-group">
-                      <label class="sr-only" for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email address">
-                  </div> <!-- /.form-group -->
-                  <!-- Button -->
-                  <button class="btn btn-danger margin-1" type="submit">Start Building Right Now!</button>
-              </form> <!-- /.subscribe-form -->
+                    <label for="mce-EMAIL" class="sr-only">Email Address </label>
+                    <input type="email" value="" class="form-control" name="EMAIL" class="required email"
+                           id="mce-EMAIL" placeholder="Enter your email address">
+                  </div>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_e65094916647d6bc36550471c_308ef2cb47" tabindex="-1" value=""></div>
+                  <div class="clear">
+                    <input type="submit" value="Start Building Right Now!" name="subscribe" id="mc-embedded-subscribe"
+                           class="btn btn-danger margin-1"></div>
+                </div>
+              </form>
+            </div>
+            <!--End mc_embed_signup-->
+            <div class="disclaimer">We will never spam you or sell your email address. It stays between us.</div>
             </p> <!-- /.btn-app-store -->
-            <p>Started building already? <a href="http://guide.websiteinaweekend.co">Pick up where you left off.</a></p>
+            <p>Started building already? <a href="/resume.html">Pick up where you left off.</a></p>
           </div> <!-- /.col-md-7 -->
 
-          <div class="col-md-5">
+          <div class="col-md-8">
 
             <!-- Images showcase -->
             <figure>
-              <img class="img-iPhone" src="images/iphone/2.png" alt="">
+              <img class="img-iPhone col-xs-12" src="/images/responsive.png" alt="">
             </figure>
 
           </div> <!-- /.col-md-5 -->
@@ -88,7 +116,7 @@
 
             <!-- Icons -->
             <figure>
-              <img class="img-services" src="images/icons/checkmark.png" alt="">
+              <img class="img-services" src="/images/icons/checkmark.png" alt="Free guide to help you build a website in a weekend">
             </figure>
 
             <!-- Title -->
@@ -105,7 +133,7 @@
 
             <!-- Icons -->
             <figure>
-              <img class="img-services" src="images/icons/dollarsign.png" alt="">
+              <img class="img-services" src="/images/icons/dollarsign.png" alt="using this guide is free, unlike hiring a designer. Which can cost $1000's.">
             </figure>
 
             <!-- Title -->
@@ -122,7 +150,7 @@
 
             <!-- Icons -->
             <figure>
-              <img class="img-services img-margin" src="images/icons/medal.png" alt="">
+              <img class="img-services img-margin" src="/images/icons/medal.png" alt="Using this guide will produce a professional website that dazzles.">
             </figure>
 
             <!-- Title -->
@@ -227,25 +255,7 @@
         <div class="row">
           <div class="col-md-12">
             <!-- Title -->
-            <h2>Finish your website this weekend. Get started now!</h2>
-            <!-- Subscribe form -->
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 col-subscribe">
-                <form class="subscribe-form form-inline" action="./index.html" role="form">
-                  <!-- Input -->
-                  <div class="form-group">
-                    <label class="sr-only" for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email address">
-                  </div> <!-- /.form-group -->
-                  <!-- Button -->
-                  <button class="btn btn-success" type="submit">Start Building Right Now!</button>
-                </form> <!-- /.subscribe-form -->
-                <!--<section class="subscribe-description">-->
-                  <!--<p>Don't worry. We do not spam :)</p>-->
-                  <!---->
-                <!--</section> <!-- /.subscribe-description -->
-              </div> <!-- /.col-md-6 -->
-            </div> <!-- /.row -->
+            <h2>Build your website this weekend. Get started now!</h2>
           </div> <!-- /.col-md-12 -->
         </div> <!-- /.row -->
       </div> <!-- /.container -->
@@ -255,34 +265,21 @@
     <footer class="footer-section" role="contentinfo">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 col-footer">
+          <div class="col-sm-4 col-footer">
             <!-- Footer 1 -->
             <section>
               <p>Made with <i class="fa fa-heart"></i> by Westropp Studios.</p>
             </section>
-            <!--&lt;!&ndash; AddThis Button &ndash;&gt;-->
-            <!--<ul class="addthis_toolbox addthis_default_style">-->
-              <!--<li><a class="addthis_button_facebook_like"></a></li>-->
-              <!--<li><a class="addthis_button_tweet"></a></li>-->
-            <!--</ul> &lt;!&ndash; /.addthis_toolbox &ndash;&gt;-->
-            <!--<script>var addthis_config = {"data_track_addressbar":true};</script>-->
-            <!--<script src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-533f6ac03b59c72a"></script>-->
           </div> <!-- /.col-md-4 -->
 
-          <div class="col-md-4 col-footer col-padding">
+          <div class="col-sm-4 col-footer col-padding">
             <!-- Footer 1 -->
             <section class="text-center">
-              <p>Be sure to read <a href="#fakelinks">Terms</a> and <a href="#fakelinks">Privacy Policy</a>.</p>
+              <p>Be sure to read our <a href="/privacy.html">Privacy Policy</a>.</p>
             </section>
-            <!-- Social media links -->
-            <!--<ul class="social-media-links">-->
-              <!--<li><a class="fa fa-twitter tw" href="#fakelinks"></a></li>-->
-              <!--<li><a class="fa fa-facebook fb" href="#fakelinks"></a></li>-->
-              <!--<li><a class="fa fa-pinterest pn" href="#fakelinks"></a></li>-->
-            <!--</ul> &lt;!&ndash; /.social-media-links &ndash;&gt;-->
           </div> <!-- /.col-md-4 -->
 
-          <div class="col-md-4 col-footer">
+          <div class="col-sm-4 col-footer">
             <!-- Footer 1 -->
             <section>
               <p>&copy; 2015. All Rights Reserved.</p>
@@ -293,8 +290,8 @@
     </footer> <!-- /.footer-section -->
 
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-2.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/application.js"></script>
+    <script src="/js/jquery-2.1.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/application.js"></script>
   </body>
 </html>

@@ -21,10 +21,10 @@
     <link href="stylesheets/application.css" rel="stylesheet">
 
     <!-- Favicons -->
-    <link href="images/favicon/favicon.png" rel="shortcut icon">
-    <link href="images/favicon/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
-    <link href="images/favicon/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
-    <link href="images/favicon/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="../public/images/favicon/favicon.png" rel="shortcut icon">
+    <link href="../public/images/favicon/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
+    <link href="../public/images/favicon/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="../public/images/favicon/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="114x114">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -48,8 +48,8 @@
 
             <!-- Logo -->
             <figure class="text-center">
-              <a href="../public-website/index.html">
-                <img class="img-logo" src="images/logo.png" alt="">
+              <a href="index.html">
+                <img class="img-logo" src="../public/images/logo.png" alt="">
               </a>
             </figure> <!-- /.text-center -->
             
@@ -66,19 +66,41 @@
 
             <div class="col-md-12">
 
-              <h4 class="text-center">Reset password</h4>
+              <h4 class="text-center">Create an account</h4>
 
-              <p>Please enter your email address. We will send you an email containing instructions to help you reset your password.</p>
-
-              <form class="sign-in-up-form" action="./forgot-password.html" role="form">
+              <form class="sign-in-up-form" action="./sign-up.html" role="form">
                 
                 <!-- Input 1 -->
                 <div class="form-group">
-                  <input class="form-control" id="exampleInputEmail4" type="email" placeholder="Enter email address">
+                  <input class="form-control" id="exampleInputName1" type="text" placeholder="Your name">
+                </div> <!-- /.form-group -->
+
+                <!-- Input 2 -->
+                <div class="form-group">
+                  <input class="form-control" id="exampleInputEmail3" type="email" placeholder="Enter email address">
+                </div> <!-- /.form-group -->
+
+                <!-- Input 3 -->
+                <div class="form-group">
+                  <input class="form-control" id="exampleInputPassword2" type="password" placeholder="Password">
                 </div> <!-- /.form-group -->
 
                 <!-- Button -->
-                <button class="btn btn-success btn-block" type="submit">Submit</button>
+                <button class="btn btn-success btn-block" type="submit">Sign Up</button>
+
+                <!-- Checkbox -->
+                <section class="text-center">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> I agree to <a href="#fakelinks">Terms</a> and <a href="#fakelinks">Privacy Policy</a>
+                    </label>
+                  </div> <!-- /.checkbox -->
+                </section> <!-- /.text-center -->
+
+                <!-- Sign In/Sign Up links -->
+                <section class="sign-in-up-links text-center">
+                  <p>Already have an account? <a href="sign-in.html">Sign In here</a></p>
+                </section> <!-- /.sign-in-up-links -->
                 
               </form> <!-- /.sign-in-up-form -->
               

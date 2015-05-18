@@ -54,7 +54,7 @@ app.controller('namecheapCtrl', ['$scope', '$window', function ($scope, $window)
         $scope.model.domain = $scope.model.domain.replace('http://', '');
         $scope.model.domain = $scope.model.domain.replace('www.', '');
 
-        var url = 'https://www.namecheap.com/domains/registration/results.aspx?domain=' + $scope.model.domain;
+        var url = 'https://www.namecheap.com/domains/registration/results.aspx?aff=87016&domain=' + $scope.model.domain;
 
         var confirm = window.confirm('You will be redirected to NameCheap. ' +
             'Once you have purchased your domain please return here to continue.');
